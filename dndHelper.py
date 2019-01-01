@@ -45,14 +45,17 @@ def diceRollMenu():
 def mainMenu():
     u_input = "default_text"
     while(True):
-        u_input = str(input("What do you need?\n1 DiceRoll\n2 CharacterCreation\n3 Exit\n\nInput: "))
+        u_input = str(input("What do you need?\n1 DiceRoll\n2 Beastiary\n3 CharacterCreation\n4 Exit\n\nInput: "))
         if(u_input == "1" or u_input.lower() == "diceroll" or u_input.lower() == "dice roll"):
             print("Entering Dice Rolling Menu...")
             diceRollMenu()
-        elif(u_input == "2" or u_input.lower() == "charactercreation" or u_input.lower() == "character creation"):
+        elif(u_input == "2" or u_input.lower() == "beastiary"):
+            print("\nEntering Beastiary Menu...")
+            print("((Work in progress, returning to menu))")
+        elif(u_input == "3" or u_input.lower() == "charactercreation" or u_input.lower() == "character creation"):
             print("\nEntering Character Creation Menu...")
             print("((Work in progress, returning to menu))")
-        elif(u_input == "3" or u_input.lower() == "exit" or u_input.lower() == "e"):
+        elif(u_input == "4" or u_input.lower() == "exit" or u_input.lower() == "e"):
             return
         else:
             print("I don't quite recognize your input, please try again!")
