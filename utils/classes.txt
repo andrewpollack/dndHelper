@@ -1,0 +1,72 @@
+Name: Barbarian
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Bard
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Cleric
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Druid
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Fighter
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Monk
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Paladin
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Ranger
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Rogue
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Sorcerer
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Warlock
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
+Name: Wizard
+Description: temp 
+HitDie: temp
+PrimaryAbility: temp 
+Saves: temp
+***
