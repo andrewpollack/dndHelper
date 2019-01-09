@@ -15,13 +15,15 @@ def smartGuess(u_input, option_list):
     best_match_percent = -100
     best_match_item = ""
     for curr_item in option_list:
+        curr_match_percent = 0
         curr_len = len(curr_item)
         copy_item = curr_item
         for curr_letter in u_input:
             let_pos = copy_item.find(curr_letter)
             if(let_pos != -1):
+                curr_match_percent += (len(copy_item) - let_pos) 
                 copy_item = copy_item[:let_pos] + copy_item[let_pos+1:]
-        curr_match_percent = (curr_len - len(copy_item)) / curr_len - (len(u_input) / curr_len)
+        curr_match_percent += (2 * (curr_len - len(copy_item)))
         if(curr_match_percent > best_match_percent):
             best_match_percent = curr_match_percent
             best_match_item = curr_item
@@ -96,7 +98,8 @@ def classInformationMenu():
     classes = list(class_dict.keys())
     classes.sort()
     # Undercase classes used for input checks
-    uclasses = classes
+    uclasses = classes.copy()
+    uclasses.append("all")
     classes = [x.title() for x in classes]
     cont = "yes"
     while(cont.lower() == "yes"):
