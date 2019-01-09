@@ -125,18 +125,19 @@ def classInformationMenu():
 
 def mainMenu():
     u_input = "default_text"
+    option_list = ["1", "2", "3", "4", "diceroll", "beastiary", "classinformation", "exit", "e"]
     while(True):
-        u_input = str(input("What do you need?\n1 DiceRoll\n2 Beastiary\n3 ClassInformation\n4 Exit\n\nInput: "))
-        if(u_input == "1" or u_input.lower() == "diceroll" or u_input.lower() == "dice roll"):
+        u_input = smartGuess((input("What do you need?\n1 Dice Roll\n2 Class Information\n3 Beastiary\n4 Exit\n\nInput: ")).lower(), option_list)
+        if(u_input == "1" or u_input == "diceroll"):
             print("Entering Dice Rolling Menu...")
             diceRollMenu()
-        elif(u_input == "2" or u_input.lower() == "beastiary"):
-            print("\nEntering Beastiary Menu...")
-            print("((Work in progress, returning to menu))")
-        elif(u_input == "3" or u_input.lower() == "classinformation" or u_input.lower() == "class information"):
+        elif(u_input == "2" or u_input == "classinformation"): 
             print("\nEntering Class Information Menu...")
             classInformationMenu()
-        elif(u_input == "4" or u_input.lower() == "exit" or u_input.lower() == "e"):
+        elif(u_input == "3" or u_input == "beastiary"):
+            print("\nEntering Beastiary Menu...")
+            print("((Work in progress, returning to menu))")
+        elif(u_input == "4" or u_input == "exit" or u_input == "e"):
             return
         else:
             print("I don't quite recognize your input, please try again!")
