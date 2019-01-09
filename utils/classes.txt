@@ -1,72 +1,72 @@
 Name: Barbarian
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A fierce warrior of primitive background who can enter a battle rage.
+HitDie: D12
+PrimaryAbility: Strength 
+Saves: Strength & Constitution
 ***
 Name: Bard
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: An inspiring magician whose power echoes the music of creation. 
+HitDie: D8
+PrimaryAbility: Charisma 
+Saves: Dexterity & Charisma
 ***
 Name: Cleric
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A priestly champion who wields divine magic in service of a higher power. 
+HitDie: D8
+PrimaryAbility: Wisdom 
+Saves: Wisdom & Charisma
 ***
 Name: Druid
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A priest of the Old Faith, wielding the powers of nature and adopting animal forms. 
+HitDie: D8
+PrimaryAbility: Wisdom 
+Saves: Intelligence & Wisdom
 ***
 Name: Fighter
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A master of martial combat, skiled with a variety of weapons and armor. 
+HitDie: D10
+PrimaryAbility: Strength or Dexterity 
+Saves: Strength & Constitution
 ***
 Name: Monk
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection. 
+HitDie: D8
+PrimaryAbility: Dexterity & Wisdom 
+Saves: Strength & Dexterity
 ***
 Name: Paladin
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A holy warrior bound to a sacred oath. 
+HitDie: D10
+PrimaryAbility: Strength & Charisma 
+Saves: Wisdom & Charisma
 ***
 Name: Ranger
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A warrior who combats threats on the edges of civilization. 
+HitDie: D10
+PrimaryAbility: Dexterity & Wisdom 
+Saves: Strength & Dexterity
 ***
 Name: Rogue
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A scoundrel who uses stealth and trickery to overcome obstacles and enemies. 
+HitDie: D8
+PrimaryAbility: Dexterity 
+Saves: Dexterity & Intelligence
 ***
 Name: Sorcerer
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A spellcaster who draws on inherent magic from a gift or bloodline. 
+HitDie: D6
+PrimaryAbility: Charisma 
+Saves: Constitution & Charisma
 ***
 Name: Warlock
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A wielder of magic that is derived from a bargain with an extraplanar entity. 
+HitDie: D8
+PrimaryAbility: Charisma 
+Saves: Wisdom & Charisma
 ***
 Name: Wizard
-Description: temp 
-HitDie: temp
-PrimaryAbility: temp 
-Saves: temp
+Description: A scholarly magic-user capable of manipulating the structures of reality. 
+HitDie: D6
+PrimaryAbility: Intelligence 
+Saves: Intelligence & Wisdom
 ***
